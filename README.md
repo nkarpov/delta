@@ -141,6 +141,7 @@ IntelliJ is the recommended IDE to use when developing Delta Lake. To import Del
 1. Clone Delta Lake into, for example, `~/delta`.
 2. In IntelliJ, select `File` > `New Project` > `Project from Existing Sources...` and select `~/delta`.
 3. Under `Import project from external model` select `sbt`. Click `Next`.
+    * Make sure to install the `Scala` plugin if you don't see `sbt` listed.
 4. Under `Project JDK` specify a valid Java `1.8` JDK and opt to use SBT shell for `project reload` and `builds`.
 5. Click `Finish`.
 
